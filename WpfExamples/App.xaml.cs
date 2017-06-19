@@ -6,17 +6,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace WpfExamples
+namespace OxyPlotTestGraph
 {
     /// <summary>
-    /// Interaction logic for App.xaml
+    /// Логика взаимодействия для App.xaml
     /// </summary>
     public partial class App : Application
     {
-        protected override void OnStartup(StartupEventArgs e)
-        {
-            base.OnStartup(e);
-            new NormalDistributionsWindow().Show();
-        }
     }
 }
