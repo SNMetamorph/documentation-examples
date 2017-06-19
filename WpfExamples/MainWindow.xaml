@@ -7,19 +7,7 @@
         <local:MainViewModel/>
     </Window.DataContext>
     <Grid>
-        <oxy:PlotView x:Name="mainmodel" Model="{Binding MyModel}" ScrollViewer.VerticalScrollBarVisibility="Disabled" IsManipulationEnabled="False" IsMouseWheelEnabled="False" ZoomHorizontalCursor="None" ZoomVerticalCursor="None" ZoomRectangleCursor="None" Background="{x:Null}" Foreground="Black" Opacity="0.885" Margin="153,103,153,104">
-            <oxy:PlotView.DefaultTrackerTemplate>
-                <ControlTemplate>
-                    <Canvas>
-                        <TextBlock Canvas.Right="-50"
-                           Canvas.Bottom="0"
-                           Margin="0"
-                           Background="LightYellow"
-                           Padding="2.5"
-                           Text="{Binding}" />
-                    </Canvas>
-                </ControlTemplate>
-            </oxy:PlotView.DefaultTrackerTemplate>
+        <oxy:PlotView x:Name="mainmodel" Model="{Binding MyModel}" ScrollViewer.VerticalScrollBarVisibility="Disabled" IsManipulationEnabled="False" IsMouseWheelEnabled="False" ZoomHorizontalCursor="None" ZoomVerticalCursor="None" ZoomRectangleCursor="None" Background="{x:Null}" Foreground="Black" Opacity="0.885">
         </oxy:PlotView>
     </Grid>
 </Window>
